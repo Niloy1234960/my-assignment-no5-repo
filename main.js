@@ -12,4 +12,9 @@ cardContainerHeart.addEventListener("click", function(e){
 })
 
 
+// clear btn funtionality
 
+document.getElementById("clear-btn").addEventListener("click", function(e){
+    e.preventDefault()
+    document.getElementById("call-history").style.display = "none"
+})
