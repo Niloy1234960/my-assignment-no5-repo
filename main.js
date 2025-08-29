@@ -215,3 +215,27 @@ document.getElementById('travel-call').addEventListener('click',function(e){
 }
 
 })
+
+
+
+
+
+// Fire Service Number
+const mainCallHistory =document.getElementById('all-call').addEventListener('click',function(e){
+
+    const nevberCoin = parseInt(document.getElementById('navber-coin').innerText)
+    if( nevberCoin >= 20 ){
+        const parentCallHistory = document.getElementById('call-history')
+
+    
+    const addTimeElement = document.getElementById('add-call-history')
+
+    
+    const creatElement = addTimeElement.cloneNode(true)
+
+
+    parentCallHistory.appendChild(creatElement)
+    }
+    
+})
+
